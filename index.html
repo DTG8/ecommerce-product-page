@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Product Page</h1>
+    </header>
+
+    <main>
+        <div class="product-container">
+            <div class="images/product-images">
+                <img id="main-image" src="webp" alt="Product Image">
+                <div class="thumbnails">
+                    <img src="imahes/iproduct1.jpg" alt="Thumbnail" onclick="changeImage('product1.jpg')">
+                    <img src="images/product2.webp" alt="Thumbnail" onclick="changeImage('product2.jpg')">
+                    <img src="images/product3.webp" alt="Thumbnail" onclick="changeImage('product3.jpg')">
+                    <img src="imagrsproduct3.webp" alt="Thumbnail" onclick="changeImage('product34.jpg')">
+                    <img src="images/product4.webp" alt="Thumbnail" onclick="changeImage('product3.jpg')">
+                </div>
+            </div>
+            <div class="product-details">
+                <h2>Product Name</h2>
+                <p>Product description goes here...</p>
+                <p>Price: $99.99</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
